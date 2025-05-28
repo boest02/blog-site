@@ -1,6 +1,6 @@
 ---
 title: 'Second post'
-description: 'Lorem ipsum dolor sit amet'
+description: 'This can be your second post in the series'
 pubDate: 'Jul 15 2022'
 heroImage: '/blog-placeholder-4.jpg'
 ---

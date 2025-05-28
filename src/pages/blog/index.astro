@@ -57,8 +57,17 @@ const posts = (await getCollection('blog')).sort(
 				color: rgb(var(--black));
 				line-height: 1;
 			}
+			.blurb {
+				color: rgb(var(--gray-light));
+				font-style: italic;
+				font-size: 90%;
+
+				&::after {
+					content: '...';
+				}
+			}
 			.date {
-				margin: 0;
+				margin: 1px 5px;
 				color: rgb(var(--gray));
 			}
 			ul li a:hover h4,
@@ -99,6 +108,7 @@ const posts = (await getCollection('blog')).sort(
 									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
 									</p>
+									<p class="blurb">{post.data.description}</p>
 								</a>
 							</li>
 						))

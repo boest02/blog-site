@@ -1,0 +1,42 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <style>
+      .contact-logo {
+        width: 100%;
+		height: auto;
+        max-width: 600px;
+        max-height: 850px;
+        border-radius: 5px;
+        object-fit: cover;
+        box-shadow: 0 2px 18px rgba(var(--gray), 45%);
+      }
+      .contact-text, .contact-text h1 {
+		color: hsla(180, 5.88%, 20%, 1);	  
+      }
+    </style>
+
+    <section class="grid-cols-2">
+      <div class="contact-text">
+        <h1>Contact</h1>
+        <hr />
+        <p>For business inquiries, please contact by email:</p>
+		<a href="mailto:jessicareilly@gmail.com">jessicareilly@gmail.com</a>
+      </div>
+      <img class="contact-logo" src="/contact-image.jpg" alt="flower image" />
+    </section>
+
+    <Footer />
+  </body>
+</html>

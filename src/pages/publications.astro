@@ -1,0 +1,87 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <style>
+      .publications {
+        width: 90%;
+        max-width: 1300px;
+        height: 850px;
+        margin: 30px auto;
+        position: relative;
+        overflow: hidden;
+        border-radius: 15px;
+
+        img {
+          position: absolute;
+          z-index: -1;
+          border-radius: 15px;
+          box-shadow: 0 2px 18px rgba(var(--gray), 45%);     
+        }
+
+        .publications-text {
+          color: #000;
+          font-size: 1rem;
+          font-weight: 400;
+          color: hsla(180, 5.88%, 20%, 1);
+          width: 50%;
+          position: relative;
+          top: 10%;
+          left: 45%;
+
+          ul {
+            font-style: italic;
+          }
+        }
+      }
+
+      @media (max-width: 720px) {
+        .publications {          
+          height: auto;   
+
+          img {
+            position: relative;               
+          }
+
+          .publications-text {
+            width: 100%;
+            top: unset;
+            left: unset;
+
+          }
+        }
+      }
+    </style>
+
+    <section class="publications">
+      <img src="/pub-background.jpg" alt="A flower image" />
+      <div class="publications-text">
+        <p>
+          Jessica Reilly was awarded Honorable Mention by the Nassau County Poet
+          Laureate Society in their 2025 Poetry Contest for her poem “Sea Legs.”
+        </p>
+        <p>
+          Jessica is honored to have her work featured in the following
+          publications:
+        </p>
+        <ul>
+          <li>Nassau County Voices in Verse Anthology – “Sea Legs”</li>
+          <li>Empire Poetry Verse – “To My Husband on Our Wedding Day”</li>
+          <li>Chronogram – “Shadows”</li>
+        </ul>
+      </div>
+    </section>
+
+    <Footer />
+  </body>
+</html>

@@ -1,7 +1,8 @@
 ---
 title: 'Third post'
-description: 'Lorem ipsum dolor sit amet'
+description: 'And latest post'
 pubDate: 'Jul 22 2022'
+updatedDate: 'May 22 2025'
 heroImage: '/blog-placeholder-2.jpg'
 ---
 
