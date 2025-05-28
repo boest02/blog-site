@@ -113,34 +113,37 @@ import { SITE_TITLE } from "../consts";
       }
     }
 
-    .social-links {
-      position: absolute;
-      right: -30px;
-      top: 0;      
-    }
-    .logo {
-      position: absolute;
-      right: 50%;
-      transform: translateX(50%);
-    }
+    nav {
+      .social-links {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        min-width: unset;
+      }
+      .logo {
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+      }
 
-    .menu {
-      display: none;
-      position: absolute;
-      top: -100px;
-      left: 0;
-      opacity: 0;
-      padding-block: 1em;
+      .menu {
+        display: none;
+        position: absolute;
+        top: -100px;
+        left: 0;
+        opacity: 0;
+        padding-block: 1em;
 
-      &.active {
-        display: flex;
-        animation: slide-in .5s ease forwards;
-        flex-direction: column;
-        background: hsla(46.67, 14.75%, 88.04%, 1);
-        padding-inline: 1em;
-        gap: 1em;
-        box-shadow: 0 2px 8px rgba(var(--gray), 15%);
-        z-index: 1000;
+        &.active {
+          display: flex;
+          animation: slide-in 0.5s ease forwards;
+          flex-direction: column;
+          background: hsla(46.67, 14.75%, 88.04%, 1);
+          padding-inline: 1em;
+          gap: 1em;
+          box-shadow: 0 2px 8px rgba(var(--gray), 15%);
+          z-index: 1000;
+        }
       }
     }
 
