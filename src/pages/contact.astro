@@ -2,7 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_EMAIL } from "../consts";
 ---
 
 <!doctype html>
@@ -32,7 +32,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
         <h1>Contact</h1>
         <hr />
         <p>For business inquiries, please contact by email:</p>
-		<a href="mailto:jessicareilly@gmail.com">jessicareilly@gmail.com</a>
+		<a href={"mailto:" + SITE_EMAIL}>{SITE_EMAIL}</a>
       </div>
       <img class="contact-logo" src="/contact-image.jpg" alt="flower image" />
     </section>

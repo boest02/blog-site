@@ -1,10 +1,11 @@
 ---
 const today = new Date();
+import { SITE_EMAIL } from "../consts";
 ---
 
 <footer>
 	<div>&copy; {today.getFullYear()} Jessica Reilly.</div>
-	<div><a href="mailto:jessicareilly@gmail.com">jessicareilly@gmail.com</a></div>
+	<div><a href={"mailto:" +  SITE_EMAIL }>{ SITE_EMAIL }</a></div>
 	<div>All rights reserved.</div>
 	<div style="margin-top: 10px;">Follow:</div>	 
 	<div class="social-links">		
