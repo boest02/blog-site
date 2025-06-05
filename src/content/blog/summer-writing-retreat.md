@@ -1,7 +1,7 @@
 ---
 title: 'Summer Writing Retreat Challenge (& What Inspired a Summer of Fun)'
 description: 'Jessica Reilly launched the Summer Writing Retreat Challenge 2025 to inspire writers of all kinds to keep summer writing FUN'
-pubDate: 'May 29 2019'
+pubDate: 'June 9 2025'
 heroImage: '/post-1-image.jpg'
 ---
 **Summer Writing Retreat Challenge — Begins June 20th!**
