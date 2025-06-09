@@ -8,7 +8,7 @@ heroImage: '/post-1-image.jpg'
 
 Starting on June 20th, the first official day of summer, I’m launching the **Summer Writing Retreat Challenge—** a celebration of writing as an act of self-care, creativity, and joyful indulgence.
 
-This “retreat” isn’t about going away— it's about going inward. It’s a personal commitment to carve out time for writing this summer, not out of pressure, but for pleasure. This challenge is an invitation to rediscover writing as a hobby, reignite it as a career, all while reconnecting with your inner child. 
+This “retreat” isn’t about going away— it's about going inward. It’s a personal commitment to carve out time for writing this summer, not out of pressure, but for pleasure. This challenge is an invitation to rediscover writing as a hobby or reignite it as a career, all while reconnecting with your inner child. 
 
 Join me in keeping writing fun this summer by following along with my [summer bingo card](/summer-bingo.png). 
 
@@ -16,7 +16,7 @@ Join me in keeping writing fun this summer by following along with my [summer bi
 
 **What Inspired the Summer Writing Retreat?** 
 
-When I was a little girl,  I would write a Summer Bucket List every year at the start of summer— filled with little dreams that I could check-off along the way. From dancing in the raining to making daisy chains, each item represented a season of endless possibilities.
+When I was a little girl,  I would write a Summer Bucket List every year at the start of summer— filled with little dreams that I could check-off along the way. From dancing in the rain to making daisy chains, each item represented a season of endless possibilities.
 
 Somewhere in my twenties, life got busy with a career and trying to figure out my place in this world, and I stopped making those lists. 
 
